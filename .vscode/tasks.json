@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "type": "shell",
+    "tasks": [
+        {
+            "label": "Convert All Modules",
+            "args": [
+                ".\\python\\convertAllModules.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "options": {
+            },
+            "command": "python",
+            "presentation": {
+                "reveal": "always",
+                "clear": true,
+                "showReuseMessage": false,
+                "panel": "dedicated"
+            }
+        }
+    ]
+}
